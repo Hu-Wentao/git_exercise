@@ -33,3 +33,10 @@ Clone项目到本地之后，Git不会自动保存更改，直接点击Revert就
     或者右键编辑窗口 -> 在弹出菜单中选择"Git" -> 在展开菜单中选择 "Commit File..."
     此时会弹出 Commit Changes 窗口，
     窗口中部即为 提交信息，提交信息参照 ../standrad/CommitMessage.md 的要求的书写
+## 1.4 拉取Github上的更改 —— Pull
+在提交自己的更改之前，应当先从Github上拉取最新版本的代码，在最新版本的基础上进行修改（正常情况下）
+    
+    在IDEA中打开项目，
+    然后点击右上角菜单栏中的 "Update Project" 按钮（蓝色箭头）。
+    或者右键编辑窗口 -> 在弹出菜单中选择"Git" -> 在展开菜单中选择 "Repository" -> 选择"Pull..."
+    
