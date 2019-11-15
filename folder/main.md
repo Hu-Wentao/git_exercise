@@ -32,4 +32,4 @@ Clone项目到本地之后，Git不会自动保存更改，直接点击Revert就
     然后点击右上角菜单栏中的 "Commit" 按钮（绿色对号）。
     或者右键编辑窗口 -> 在弹出菜单中选择"Git" -> 在展开菜单中选择 "Commit File..."
     此时会弹出 Commit Changes 窗口，
-    窗口中部即为
+    窗口中部即为 提交信息，提交信息参照 ../standrad/CommitMessage.md 的要求的书写
