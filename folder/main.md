@@ -15,20 +15,20 @@
     打开IDEA，Settings -> Version Control -> GitHub
     点击左下角 "+" 将自己的Github账号添加到IDEA中
 
-# 1 使用
+# 1 在IDEA中简单的使用Git
 
 ## 1.1 导入Github上的项目
     复制项目的 Git地址
     打开IDEA，File -> New -> Project from version control -> Git
     将复制的Git地址粘贴到 URL 中，再点击 Clone 
 ## 1.2 回到过去 —— Revert
-    在IDEA中打开项目，随意对 main.md 文件进行编辑，修改。
+    在IDEA中打开项目，随意对 test.md 文件进行编辑，修改。
     然后点击右上角菜单栏中的 "Revert" 按钮（白色撤销状箭头）。
     或者右键编辑窗口 -> 在弹出菜单中选择"Git" -> 在展开菜单中选择 "Revert"
 ## 1.3 保存更改 —— Commit
 Clone项目到本地之后，Git不会自动保存更改，直接点击Revert就会回到最近一次保存的状态
 
-    在IDEA中打开项目，随意对 main.md 文件进行编辑，修改。
+    在IDEA中打开项目，随意对 test.md 文件进行编辑，修改。
     然后点击右上角菜单栏中的 "Commit" 按钮（绿色对号）。
     或者右键编辑窗口 -> 在弹出菜单中选择"Git" -> 在展开菜单中选择 "Commit File..."
     此时会弹出 Commit Changes 窗口，
@@ -43,7 +43,7 @@ Clone项目到本地之后，Git不会自动保存更改，直接点击Revert就
 自己修改项目之后，使用Commit仅仅只是将更改保存在了本地。
 如果没有Push，那么此时其他人从Github上clone的最新的代码仍然是你尚未更改过的样子
 
-注意，在Push之前，首先确保自己已经 Commit过代码，并且没有做出过其他更改，否则应当先Commit
+*注意，在Push之前，首先确保自己已经 Commit过代码，并且没有做出过其他更改，否则应当先Commit*
     
     在IDEA中打开项目，
     或者右键编辑窗口 -> 在弹出菜单中选择"Git" -> 在展开菜单中选择 "Repository" -> 选择"Push..."
