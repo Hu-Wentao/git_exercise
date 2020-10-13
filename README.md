@@ -6,6 +6,8 @@ Git协作练习项目
 
 进入Git官网 https://git-scm.com 下载对应安装包并打开，一路 next 即可完成安装
 
+### 2 在IDEA中启用Git  <新版本IDEA无需该操作>
+
 打开IDEA，Settings -> Version Control -> Git
 在这里配置安装好的Git的路径，一般默认的路径即可，点击右侧的"Test"可以测试路径是否有效
 
