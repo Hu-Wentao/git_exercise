@@ -28,10 +28,9 @@ Git协作练习项目
 
 ![](README.assets/image-20201013224018882.png)
 
+克隆完成后, 按 "Alt+1", 可以查看项目文件结构, 双击 READE.md 可查看介绍
 
-
-
-
+![image-20201013232358860](README.assets/image-20201013232358860.png)
 
 
 
